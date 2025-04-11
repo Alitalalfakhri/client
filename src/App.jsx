@@ -3,7 +3,7 @@ import './App.css';
 import axios from 'axios';
 
 function ProductForm() {
-  const url = 'https://3ae136ae-a5de-4351-85cc-4b56963af724-00-1bhn45hk2nnyl.sisko.replit.dev:3001';
+  const url = 'https://temp-server-production-cde2.up.railway.app';
   const [formData, setFormData] = useState({
     name: '',
     price: '',
