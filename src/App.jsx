@@ -129,8 +129,7 @@ function ProductForm() {
       alert('حدث خطأ أثناء إضافة المنتج. الرجاء المحاولة مرة أخرى.');
     }
   }
-
-  console.log(products)
+  products.forEach(product => {console.log(product.name , product._id)})
   return (
     <>
       <form className="form-container" onSubmit={handleSubmit}>
