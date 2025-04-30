@@ -4,7 +4,7 @@ import './App.css';
 import axios from 'axios';
 
 function ProductForm() {
-  const url = 'https://temp-server-production-cde2.up.railway.app';
+  const url = 'https://temserver-production.up.railway.app';
 
   const [formData, setFormData] = useState({
     name: '',
